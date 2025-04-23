@@ -2,7 +2,7 @@
   "name": "speedtype-arena",
   "version": "1.0.0",
   "description": "SpeedType Arena est un jeu de dactylographie multijoueur en temps réel. Entraîne-toi en solo ou affronte d'autres joueurs en direct avec un classement instantané !",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
