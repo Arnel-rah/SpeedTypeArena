@@ -1,5 +1,3 @@
-
-
 const express = require("express");
 const http = require("http");
 const socketIO = require("socket.io");
@@ -15,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 io.on("connection", (socket) => {
-  console.log(" Utilisateur connecté :", socket.id);
+  console.log("Utilisateur connecté :", socket.id);
 });
 
 app.get("/", (req, res) => {
