@@ -1,0 +1,45 @@
+{
+  "name": "speedtype-arena",
+  "version": "1.0.0",
+  "description": "SpeedType Arena est un jeu de dactylographie multijoueur en temps réel. Entraîne-toi en solo ou affronte d'autres joueurs en direct avec un classement instantané !",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests specified yet\" && exit 0",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arnel-rah/SpeedTypeArena.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Arnel-rah/SpeedTypeArena/issues"
+  },
+  "homepage": "https://github.com/Arnel-rah/SpeedTypeArena#readme",
+  "keywords": [
+    "dactylographie",
+    "jeu",
+    "temps-réel",
+    "socket.io",
+    "postgresql",
+    "speedtype",
+    "multijoueur"
+  ],
+  "author": "Arnel Rah",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "eslint": "^8.56.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
